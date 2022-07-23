@@ -1,4 +1,4 @@
-f=open('17.1.txt').readlines()
+f=open('17.2.txt').readlines()
 sp=[int(x) for x in f]
 sp1=[x for x in sp if x%15==0]
 srar=sum(sp1)//len(sp1)
