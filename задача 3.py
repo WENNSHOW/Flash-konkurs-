@@ -1,6 +1,6 @@
 def alf(a,b):
 	al='0123456789ABCDEF'
-	o=' '
+	o=''
 	while a>0:
 		o=al[a%b]+o
 		a=a//b	
